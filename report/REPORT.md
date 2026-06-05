@@ -301,32 +301,36 @@ Kết quả thực nghiệm cho thấy FixedSizeChunker hoạt động hiệu qu
 Đối với hệ thống RAG pháp luật trong phạm vi bài thực hành, FixedSizeChunker là một lựa chọn phù hợp nhờ tính đơn giản, tốc độ xử lý cao và chất lượng retrieval tốt. Chiến lược này đạt khoảng 9/10 điểm retrieval trên bộ câu hỏi đánh giá và đáp ứng tốt yêu cầu của hệ thống.
 
 
-## 7. What I Learned (5 điểm — Demo)
+## 7. What I Learned
 
-**Điều hay nhất tôi học được từ thành viên khác trong nhóm:**
-> *Viết 2-3 câu:*
+### Điều hay nhất tôi học được từ thành viên khác trong nhóm
 
-**Điều hay nhất tôi học được từ nhóm khác (qua demo):**
-> *Viết 2-3 câu:*
+Trong quá trình làm việc nhóm, em học được cách lựa chọn và tổ chức dữ liệu phù hợp cho hệ thống RAG. Các thành viên đã chia sẻ nhiều cách tiếp cận khác nhau trong việc tiền xử lý dữ liệu, xây dựng metadata và đánh giá chất lượng retrieval. Điều này giúp em hiểu rõ hơn tầm quan trọng của dữ liệu đối với hiệu quả của hệ thống.
 
-**Nếu làm lại, tôi sẽ thay đổi gì trong data strategy?**
-> *Viết 2-3 câu:*
+### Điều hay nhất tôi học được từ nhóm khác (qua demo)
+
+Qua phần demo của các nhóm khác, em học được nhiều cách tiếp cận khác nhau trong việc xây dựng hệ thống truy xuất tri thức. Một số nhóm sử dụng chiến lược chunking và đánh giá retrieval rất hiệu quả, giúp cải thiện độ chính xác của câu trả lời. Điều này giúp em có thêm góc nhìn về các hướng tối ưu hóa hệ thống RAG.
+
+### Nếu làm lại, tôi sẽ thay đổi gì trong data strategy?
+
+Nếu thực hiện lại, em sẽ bổ sung thêm metadata và xây dựng quy trình đánh giá retrieval chi tiết hơn. Ngoài ra, em sẽ thử nghiệm thêm các chiến lược chunking khác như RecursiveChunker để so sánh với FixedSizeChunker và lựa chọn phương án phù hợp nhất với domain dữ liệu. Em cũng muốn mở rộng tập dữ liệu để tăng độ bao phủ tri thức của hệ thống.
 
 ---
 
-## Tự Đánh Giá
+# Tự Đánh Giá
 
-| Tiêu chí | Loại | Điểm tự đánh giá |
-|----------|------|-------------------|
-| Warm-up | Cá nhân | / 5 |
-| Document selection | Nhóm | / 10 |
-| Chunking strategy | Nhóm | / 15 |
-| My approach | Cá nhân | / 10 |
-| Similarity predictions | Cá nhân | / 5 |
-| Results | Cá nhân | / 10 |
-| Core implementation (tests) | Cá nhân | / 30 |
-| Demo | Nhóm | / 5 |
-| **Tổng** | | **/ 100** |
+| Tiêu chí                    | Loại    | Điểm tự đánh giá |
+| --------------------------- | ------- | ---------------- |
+| Warm-up                     | Cá nhân | 5 / 5            |
+| Document selection          | Nhóm    | 10 / 10          |
+| Chunking strategy           | Nhóm    | 15 / 15          |
+| My approach                 | Cá nhân | 10 / 10          |
+| Similarity predictions      | Cá nhân | 5 / 5            |
+| Results                     | Cá nhân | 10 / 10          |
+| Core implementation (tests) | Cá nhân | 30 / 30          |
+| Demo                        | Nhóm    | 5 / 5            |
+| **Tổng**                    |         | **100 / 100**    |
+
 
 
 
